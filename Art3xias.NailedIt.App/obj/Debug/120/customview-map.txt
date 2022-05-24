@@ -3,6 +3,7 @@ adaptive-icon;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
 background;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
 Button;obj\Debug\120\res\layout\activity_main.xml
+Button;obj\Debug\120\res\layout\activity_register.xml
 cache-path;C:\Users\kmilchev\Desktop\Test\C#\Art3xias.NailedIt\Art3xias.NailedIt.App\obj\Debug\120\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\120\res\values\colors.xml
 color;obj\Debug\120\res\values\ic_launcher_background.xml
@@ -11,8 +12,12 @@ external-path;C:\Users\kmilchev\Desktop\Test\C#\Art3xias.NailedIt\Art3xias.Naile
 foreground;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
 ImageView;obj\Debug\120\res\layout\activity_main.xml
+ImageView;obj\Debug\120\res\layout\activity_register.xml
 item;obj\Debug\120\res\values\styles.xml
+Label;obj\Debug\120\res\layout\activity_register.xml
+Lable;obj\Debug\120\res\layout\activity_register.xml
 LinearLayout;obj\Debug\120\res\layout\activity_main.xml
+LinearLayout;obj\Debug\120\res\layout\activity_register.xml
 paths;C:\Users\kmilchev\Desktop\Test\C#\Art3xias.NailedIt\Art3xias.NailedIt.App\obj\Debug\120\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 resources;obj\Debug\120\res\values\colors.xml
 resources;obj\Debug\120\res\values\ic_launcher_background.xml
@@ -20,3 +25,8 @@ resources;obj\Debug\120\res\values\strings.xml
 resources;obj\Debug\120\res\values\styles.xml
 string;obj\Debug\120\res\values\strings.xml
 style;obj\Debug\120\res\values\styles.xml
+TextClock;obj\Debug\120\res\layout\activity_register.xml
+TextveBox;obj\Debug\120\res\layout\activity_register.xml
+TextView;obj\Debug\120\res\layout\activity_register.xml
+TexViewt;obj\Debug\120\res\layout\activity_register.xml
+View;obj\Debug\120\res\layout\activity_register.xml
