@@ -70,7 +70,7 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceTabsActivity.cs" />
-    <Compile Include="ServiceTypeAcitivity.cs" />
+    <Compile Include="ServiceTypeActivity.cs" />
     <Compile Include="ViewHolders\ServiceTypeViewHolder.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -165,7 +165,11 @@
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\serviceType.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
     Other similar extension points exist, see Microsoft.Common.targets.

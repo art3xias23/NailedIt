@@ -33,6 +33,8 @@ namespace Art3xias.NailedIt.App.Fragments
 
             serviceTypeAdapter.ItemClick += ServiceTypeAdapter_ItemClick;
             serviceTypeRecyclerView.SetAdapter(serviceTypeAdapter);
+
+            return view;
         }
 
         private void ServiceTypeAdapter_ItemClick(object sender, int e)
