@@ -1,4 +1,5 @@
 ﻿using System;
+using Android.App;
 using Android.OS;
 using Android.Support.V7.App;
 using Android.Widget;
@@ -7,7 +8,8 @@ using Art3xias.NailedIt.Core.Models;
 
 namespace Art3xias.NailedIt.App
 {
-    internal class ServiceTypeActivity : AppCompatActivity
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme")]
+    public class ServiceTypeActivity : AppCompatActivity
     {
         private ServiceTypeDummyRepository _serviceTypeRepository;
         private ServiceType _selectedService;
@@ -38,10 +40,8 @@ namespace Art3xias.NailedIt.App
 
         private void AddToCartButton_Click(object sender, EventArgs e)
         {
-            var amount = int.Parse(_amountEditText.Text);
 
-            ShoppingCartRepository shoppingCartRepository = new ShoppingCartRepository();
-            _serviceTypeRepository.AddToShoppingCart(_selectedPie, amount);
+            _serviceTypeRepository.AddToShoppingCart(_selectedService);
             Toast.MakeText(Application.Context, "Pie added to cart", ToastLength.Long).Show();
 
             this.Finish();

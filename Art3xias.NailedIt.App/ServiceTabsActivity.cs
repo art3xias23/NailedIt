@@ -15,7 +15,7 @@ namespace Art3xias.NailedIt.App
 
             SetContentView(Resource.Layout.activity_service_tabs);
 
-            ViewPager viewPager = FindViewById<ViewPager>(Resource.Id.nailPager);
+            ViewPager viewPager = FindViewById<ViewPager>(Resource.Id.serviceTypePager);
 
             ServiceCategoryTypeFragmentAdapter serviceTypeFragmentAdapter =
                 new ServiceCategoryTypeFragmentAdapter(SupportFragmentManager);
