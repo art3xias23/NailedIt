@@ -6,7 +6,7 @@ using Art3xias.NailedIt.App.Adapters;
 
 namespace Art3xias.NailedIt.App
 {
-    [Activity(Label = "ServiceTabsActivity")]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme")]
     public class ServiceTabsActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)

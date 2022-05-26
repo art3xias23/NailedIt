@@ -8,6 +8,15 @@ namespace Art3xias.NailedIt.Core
     {
 
         private static ShoppingCart _shoppingCart = new ShoppingCart();
+
+        private static readonly Dictionary<string, ServiceCategoryType> AllCategories = new Dictionary<string, ServiceCategoryType>()
+        {
+
+            {"Service Category1", new ServiceCategoryType(1,"Service Category1") },
+            {"Service Category2", new ServiceCategoryType(2,"Service Category2") }
+        };
+
+
         public List<ServiceType> GetAllServiceTypes() =>
             new List<ServiceType>()
             {
@@ -31,13 +40,13 @@ namespace Art3xias.NailedIt.Core
 
                 new ServiceType(10, "Service1", new ServiceCategoryType(1, "Service Category1"), 1200),
 
-                new ServiceType(11, "Service1", new ServiceCategoryType(1, "Service Category1"), 1300),
+                new ServiceType(11, "Service1", new ServiceCategoryType(1, "Service Category2"), 1300),
 
-                new ServiceType(12, "Service1", new ServiceCategoryType(1, "Service Category1"), 1400),
+                new ServiceType(12, "Service1", new ServiceCategoryType(1, "Service Category2"), 1400),
 
-                new ServiceType(13, "Service1", new ServiceCategoryType(1, "Service Category1"), 1500),
+                new ServiceType(13, "Service1", new ServiceCategoryType(1, "Service Category2"), 1500),
 
-                new ServiceType(14, "Service1", new ServiceCategoryType(1, "Service Category1"), 1600)
+                new ServiceType(14, "Service1", new ServiceCategoryType(1, "Service Category2"), 1600)
             };
 
         public ServiceType GetServiceTypeById(int getInt)
@@ -53,6 +62,17 @@ namespace Art3xias.NailedIt.Core
             };
 
             _shoppingCart.CartItems.Add(shoppingCartItem);
+        }
+
+        public List<ServiceCategoryType> GetCategoriesWithServices()
+        {
+            foreach (var category in AllCategories.Values)
+            {
+                category.ServiceTypes = GetAllServiceTypes()
+                    .Where(c => c.ServiceCategoryType.ServiceCategoryTypeName == category.ServiceCategoryTypeName).ToList();
+            }
+
+            return AllCategories.Values.ToList();
         }
     }
 }

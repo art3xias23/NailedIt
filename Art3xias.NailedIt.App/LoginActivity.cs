@@ -6,7 +6,7 @@ using AndroidX.AppCompat.App;
 
 namespace Art3xias.NailedIt.App
 {
-    [Activity(Label = "LoginActivity")]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme")]
     public class LoginActivity : AppCompatActivity
     {
         private EditText _nameEditText;
@@ -16,9 +16,9 @@ namespace Art3xias.NailedIt.App
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_login);
+            AssignAndSetControlContents();
             AddEventHandlers();
 
-            AssignAndSetControlContents();
             // Create your application here
         }
 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Android.Runtime;
 using Android.Support.V4.App;
 using Art3xias.NailedIt.App.Fragments;
+using Art3xias.NailedIt.Core;
 using Art3xias.NailedIt.Core.Models;
 using Java.Util;
 using FragmentManager = Android.Support.V4.App.FragmentManager;
@@ -28,6 +29,8 @@ namespace Art3xias.NailedIt.App.Adapters
 
         public ServiceCategoryTypeFragmentAdapter(FragmentManager fm) : base(fm)
         {
+            var serviceTypeRepository = new ServiceTypeDummyRepository();
+            _serviceTypes = serviceTypeRepository.GetCategoriesWithServices();
         }
 
     }
