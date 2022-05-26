@@ -24,8 +24,8 @@ public final class R {
 		public static final int left = 0x7f080085;
 		public static final int none = 0x7f08009f;
 		public static final int right = 0x7f0800af;
-		public static final int start = 0x7f0800d6;
-		public static final int top = 0x7f0800f6;
+		public static final int start = 0x7f0800d8;
+		public static final int top = 0x7f0800f8;
 	}
 	public static final class style {
 		public static final int Widget_Support_CoordinatorLayout = 0x7f0f01f9;

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Art3xias.NailedIt.App", "Art3xias.NailedIt.App\Art3xias.NailedIt.App.csproj", "{7CFE2A14-7210-4836-A894-175679268424}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Art3xias.NailedIt.Core", "Art3xias.NailedIt.Core\Art3xias.NailedIt.Core.csproj", "{7CD9FB2C-B99C-474D-BA2F-95B7897D256B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{7CFE2A14-7210-4836-A894-175679268424}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CFE2A14-7210-4836-A894-175679268424}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7CFE2A14-7210-4836-A894-175679268424}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7CD9FB2C-B99C-474D-BA2F-95B7897D256B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD9FB2C-B99C-474D-BA2F-95B7897D256B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD9FB2C-B99C-474D-BA2F-95B7897D256B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD9FB2C-B99C-474D-BA2F-95B7897D256B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
