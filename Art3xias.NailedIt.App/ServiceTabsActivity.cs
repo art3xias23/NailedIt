@@ -1,11 +1,13 @@
 ﻿using Android.App;
 using Android.OS;
 using Android.Support.V4.View;
+using Android.Support.V7.App;
+using Art3xias.NailedIt.App.Adapters;
 
 namespace Art3xias.NailedIt.App
 {
-    [Activity(Label = "ServiceTabsActivity")]
-    public class ServiceTabsActivity : Activity
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme")]
+    public class ServiceTabsActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -13,7 +15,12 @@ namespace Art3xias.NailedIt.App
 
             SetContentView(Resource.Layout.activity_service_tabs);
 
-            ViewPager viewPager = FindViewById<ViewPager>(Resource.Id.nailPager);
+            ViewPager viewPager = FindViewById<ViewPager>(Resource.Id.serviceTypePager);
+
+            ServiceCategoryTypeFragmentAdapter serviceTypeFragmentAdapter =
+                new ServiceCategoryTypeFragmentAdapter(SupportFragmentManager);
+
+            viewPager.Adapter = serviceTypeFragmentAdapter;
         }
     }
 }

@@ -5,5 +5,6 @@
     <ActiveDebugProfile>pixel_2_lollipop_5_0_-_api_21</ActiveDebugProfile>
     <ProjectView>ShowAllFiles</ProjectView>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
+    <AndroidDesignerPreferredTheme>AppTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

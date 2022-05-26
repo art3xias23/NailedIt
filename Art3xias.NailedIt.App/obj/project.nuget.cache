@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lSu9o+VdRI8NAYtKzCApb2aHF1kOeioBYKuXiVorhmUQt2MtEjswtGIuFEwogE1WOnviCwXIaSCaV1A3XylBew==",
+  "dgSpecHash": "+Pum/R27NfiJZnVxKeIkPkxD15FTYOQoHRuWYuz8WbX0KANDzc8/S9hBUHYq+DKDsXMhrBYK1ua806Uicq4loA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kmilchev\\Desktop\\Test\\C#\\Art3xias.NailedIt\\Art3xias.NailedIt.App\\Art3xias.NailedIt.App.csproj",
+  "projectFilePath": "C:\\Users\\kmilchev\\Desktop\\MyProjects\\C#\\Art3xias.NailedIt\\Art3xias.NailedIt.App\\Art3xias.NailedIt.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kmilchev\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
