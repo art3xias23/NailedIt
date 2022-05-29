@@ -2,7 +2,7 @@
 {
     public class ShoppingCartItem
     {
-        public ServiceType ServiceType
+        public Service ServiceType
         {
             get;
             set;

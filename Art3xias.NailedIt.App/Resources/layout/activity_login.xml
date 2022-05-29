@@ -33,16 +33,16 @@
             android:backgroundTint="#fff8f7f7" />
     </LinearLayout>
     <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="50dp"
-      android:orientation="horizontal">
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
         <TextView
-          android:text="Text"
-          android:layout_width="70dp"
-          android:layout_height="40dp"
-          android:id="@+id/mobileNumberTextView"
-          android:layout_marginLeft="40dp"
-          android:backgroundTint="#ff4a690d" />
+            android:text="Text"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:id="@+id/mobileNumberTextView"
+            android:layout_marginLeft="40dp"
+            android:backgroundTint="#ff4a690d" />
         <EditText
             android:inputType="phone"
             android:layout_width="200dp"
@@ -52,9 +52,11 @@
             android:backgroundTint="#fff8f7f7" />
     </LinearLayout>
     <Button
+        android:text="Вход"
+        android:textColor="#ffffffff"
         android:layout_width="150dp"
         android:layout_height="60dp"
-android:layout_gravity="center"
-android:id="@+id/loginContinueButton"
-android:backgroundTint="#fdab5d"/>
+        android:layout_gravity="center"
+        android:id="@+id/loginContinueButton"
+        android:backgroundTint="#fdab5d"/>
 </LinearLayout>

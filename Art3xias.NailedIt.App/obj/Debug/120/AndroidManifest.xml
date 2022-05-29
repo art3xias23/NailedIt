@@ -18,7 +18,7 @@
     </activity>
     <activity android:label="RegisterActivity" android:name="crc64cf2e65de3a945ecd.RegisterActivity" />
     <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="crc64cf2e65de3a945ecd.ServiceTabsActivity" />
-    <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="crc64cf2e65de3a945ecd.ServiceTypeActivity" />
+    <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="crc64cf2e65de3a945ecd.ServiceActivity" />
     <service android:name="crc64396a3fe5f8138e3f.KeepAliveService" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" android:name="crc64a0e0a82d0db9a07d.BatteryBroadcastReceiver" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" android:name="crc64a0e0a82d0db9a07d.EnergySaverBroadcastReceiver" />

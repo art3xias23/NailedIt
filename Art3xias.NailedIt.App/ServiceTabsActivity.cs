@@ -17,8 +17,8 @@ namespace Art3xias.NailedIt.App
 
             ViewPager viewPager = FindViewById<ViewPager>(Resource.Id.serviceTypePager);
 
-            ServiceCategoryTypeFragmentAdapter serviceTypeFragmentAdapter =
-                new ServiceCategoryTypeFragmentAdapter(SupportFragmentManager);
+            ServiceCategoryFragmentAdapter serviceTypeFragmentAdapter =
+                new ServiceCategoryFragmentAdapter(SupportFragmentManager);
 
             viewPager.Adapter = serviceTypeFragmentAdapter;
         }

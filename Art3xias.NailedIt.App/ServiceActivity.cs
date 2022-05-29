@@ -9,10 +9,10 @@ using Art3xias.NailedIt.Core.Models;
 namespace Art3xias.NailedIt.App
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme")]
-    public class ServiceTypeActivity : AppCompatActivity
+    public class ServiceActivity : AppCompatActivity
     {
         private ServiceTypeDummyRepository _serviceTypeRepository;
-        private ServiceType _selectedService;
+        private Core.Models.Service _selectedService;
 
         private TextView _serviceTypeNameTextView;
         private TextView _serviceTypePriceTextView;
@@ -21,7 +21,7 @@ namespace Art3xias.NailedIt.App
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.serviceType);
+            SetContentView(Resource.Layout.service);
 
             _serviceTypeRepository = new ServiceTypeDummyRepository();
 

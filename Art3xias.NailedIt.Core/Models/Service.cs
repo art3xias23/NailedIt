@@ -1,8 +1,8 @@
 ﻿namespace Art3xias.NailedIt.Core.Models
 {
-    public record ServiceType
+    public record Service
     {
-        public ServiceType(int serviceTypeId, string serviceTypeName, ServiceCategoryType serviceCategoryType, decimal price)
+        public Service(int serviceTypeId, string serviceTypeName, ServiceCategory serviceCategoryType, decimal price)
         {
             ServiceTypeId = serviceTypeId;
             ServiceTypeName = serviceTypeName;
@@ -12,7 +12,7 @@
 
         public int ServiceTypeId { get; set; }
         public string ServiceTypeName { get; set; }
-        public ServiceCategoryType ServiceCategoryType { get; set; }
+        public ServiceCategory ServiceCategoryType { get; set; }
         public decimal Price { get; set; }
     }
 }

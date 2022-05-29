@@ -6,7 +6,7 @@
 android:background="@drawable/mainbackground2">
   <TextView
     android:text="Category"
-    android:id="@+id/serviceTypeTextView"
+    android:id="@+id/serviceTextView"
     android:textAppearance="?android:attr/textAppearanceLarge"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -14,7 +14,7 @@ android:background="@drawable/mainbackground2">
     android:layout_margin="10dp"
   />
   <android.support.v7.widget.RecyclerView
-    android:id="@+id/serviceTypeMenuRecyclerView"
+    android:id="@+id/serviceRecyclerView"
     android:scrollbars="vertical"
     android:layout_margin="5dp"
     android:layout_width="fill_parent"

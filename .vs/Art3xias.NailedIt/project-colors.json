@@ -10,7 +10,12 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "7cd9fb2c-b99c-474d-ba2f-95b7897d256b": {
+      "ProjectGuid": "7cd9fb2c-b99c-474d-ba2f-95b7897d256b",
+      "DisplayName": "Art3xias.NailedIt.Core",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
