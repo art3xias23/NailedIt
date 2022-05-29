@@ -25,7 +25,7 @@ namespace Art3xias.NailedIt.App
 
             _serviceTypeRepository = new ServiceTypeDummyRepository();
 
-            _selectedService = _serviceTypeRepository.GetServiceTypeById(Intent.Extras.GetInt("selectedPieId"));
+            _selectedService = _serviceTypeRepository.GetServiceTypeById(Intent.Extras.GetInt("selectedServiceId"));
 
             FindViews();
 

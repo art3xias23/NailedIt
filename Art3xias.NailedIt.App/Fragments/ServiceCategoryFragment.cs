@@ -45,7 +45,7 @@ namespace Art3xias.NailedIt.App.Fragments
         {
             var intent = new Intent();
             intent.SetClass(this.Context, typeof(ServiceActivity));
-            intent.PutExtra("selectedServiceTypeId", e);
+            intent.PutExtra("selectedServiceId", e);
             StartActivity(intent);
         }
     }
