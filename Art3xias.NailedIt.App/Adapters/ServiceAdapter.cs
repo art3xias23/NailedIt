@@ -41,8 +41,8 @@ namespace Art3xias.NailedIt.App.Adapters
         public override int ItemCount => _serviceTypes.Count;
         public void Listener(int position)
         {
-            var serviceClickedId = _serviceTypes[position].ServiceTypeId;
-            ItemClick?.Invoke(this, serviceClickedId);
+            var selectedServiceId = _serviceTypes[position].ServiceTypeId;
+            ItemClick?.Invoke(this, selectedServiceId);
         }
     }
 }
