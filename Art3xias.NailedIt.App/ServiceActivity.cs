@@ -42,7 +42,7 @@ namespace Art3xias.NailedIt.App
         {
 
             _serviceTypeRepository.AddToShoppingCart(_selectedService);
-            Toast.MakeText(Application.Context, "Pie added to cart", ToastLength.Long).Show();
+            Toast.MakeText(Application.Context, "Pie added to cart", ToastLength.Long)?.Show();
 
             this.Finish();
         }

@@ -11,7 +11,6 @@ namespace Art3xias.NailedIt.App.Adapters
     internal class ServiceAdapter : RecyclerView.Adapter
     {
         private List<Service> _serviceTypes;
-        private ServiceTypeDummyRepository _serviceTypeRepository;
         public event EventHandler<int> ItemClick;
 
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
